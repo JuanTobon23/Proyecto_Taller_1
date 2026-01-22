@@ -1,7 +1,7 @@
-# 📌 Trace
+# 📌 Trace Travel
 
 ## 📄 Descripción
-Esta es una página de viajes que busca ayudar a las personas a encontrar los mejores sitios para viajar y hospedarse.  
+Esta es una página web de agencia de viajes que ayuda a las personas a encontrar los mejores destinos y experiencias de viaje.  
 ---
 
 ## 🛠 Tecnologías usadas
