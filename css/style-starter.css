@@ -16307,6 +16307,19 @@ a.read:hover {
     display: none;
   }
 }
+
+/* Color de los puntos cuando NO están seleccionados */
+.owl-theme .owl-dots .owl-dot span {
+    background: white; /* Azul clarito */
+    border: 1px solid transparent;
+}
+
+/* Color del punto cuando está ACTIVO (el slide actual) */
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: var(--blue) !important; /* Azul fuerte */
+}
+
 /*--/testimonials--*/
 /* Magnific Popup CSS */
 .mfp-bg {
@@ -17370,6 +17383,16 @@ h3.hny-title.two {
   button.btn-contact {
     width: 100%;
   }
+}
+
+/* Cambia el color del texto del botón blanco a azul en estado normal */
+.btn-white {
+    color: #007bff !important;
+}
+
+/* Cambia el color del texto cuando pasas el ratón (hover) */
+.btn-white:hover {
+    color: #0056b3 !important; /* Un azul más oscuro al pasar el mouse */
 }
 
 /* / contact1-responsive */
