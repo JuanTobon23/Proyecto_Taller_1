@@ -15173,6 +15173,36 @@ nav ul li a:hover {
   display: none;
 }
 
+/* Color para el logo/nombre Travel Hub */
+.navbar-brand {
+    color: #007bff !important; /* Azul */
+}
+
+/* Color para los enlaces del menú */
+.navbar-nav .nav-link {
+    color: #007bff !important; /* Cambia esto al color que desees */
+}
+
+/* Color cuando pasas el mouse por encima de los enlaces */
+.navbar-nav .nav-link:hover {
+    color: #0056b3 !important; /* Un azul más oscuro */
+}
+
+/* Color para la pestaña que está "activa" (la que tiene la rayita debajo) */
+.navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
+    color: #007bff !important;
+}
+
+/* Cambia la línea de abajo de los enlaces al pasar el ratón (hover) */
+.navbar-expand-lg .navbar-nav .nav-link:before {
+    background: #007bff !important; /* Azul */
+}
+
+/* Cambia la línea de la pestaña que está activa actualmente */
+.navbar-expand-lg .navbar-nav .nav-item.active .nav-link:before {
+    background: #007bff !important; /* Azul */
+}
+
 /**
  * Owl Carousel v2.3.4
  * Copyright 2013-2018 David Deutsch
@@ -17569,6 +17599,17 @@ h3.hny-title.two {
     margin-top: 0;
     margin-bottom: 10px;
   }
+}
+
+/* Cambia el color del enlace W3layouts en el footer a azul claro */
+.w3l-footer .midd-footer-28 a {
+    color: #00CCFF !important; /* Azul claro */
+    text-decoration: none;
+}
+
+/* Cambia el color cuando pasas el mouse por encima */
+.w3l-footer .midd-footer-28 a:hover {
+    color: #99EBFF !important; /* Un azul aún más clarito */
 }
 
 /*# sourceMappingURL=style-freedom.css.map */
