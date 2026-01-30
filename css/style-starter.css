@@ -23,8 +23,8 @@ Author URL: http://w3layouts.com
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #fb8500;
-  --secondary: #fd9e02;
+ --primary: #007bff;   /* Azul principal */
+  --secondary: #0056b3; /* Azul para efectos */
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -179,8 +179,19 @@ a {
 }
 
 a:hover {
-  color: #fb8500;
+  color: #007bff;
   text-decoration: underline;
+}
+
+/* Cambiar color de cualquier enlace al pasar el mouse */
+a:hover {
+    color: #0056b3 !important;
+    text-decoration-color: #007bff !important; /* Para subrayado estándar */
+}
+
+/* Para el subrayado especial de los menús que mencionamos antes */
+.navbar-expand-lg .navbar-nav .nav-link:before {
+    background: #007bff !important;
 }
 
 a:not([href]) {
@@ -17607,9 +17618,11 @@ h3.hny-title.two {
     text-decoration: none;
 }
 
-/* Cambia el color cuando pasas el mouse por encima */
-.w3l-footer .midd-footer-28 a:hover {
-    color: #99EBFF !important; /* Un azul aún más clarito */
+/* Pégalo al final de todo */
+.logo-nav {
+    height: 50px; 
+    width: auto;
+    object-fit: contain;
 }
 
 /*# sourceMappingURL=style-freedom.css.map */
